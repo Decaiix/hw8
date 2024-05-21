@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-box h3:first-child{
+    color: pink;
+}
+#greycol{
+    color: grey;
+}
+div div p{
+    color: red;
+}
+.text-box div + div + h3 + p{
+    color: green;
+}
+
+.yellow{
+    color: yellow;
+}
+table{
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    border-collapse: collapse;
+}
+th{
+    transition: .2s;
+    color: #d0c26a;
+}
+tr{
+    background-color: #6c6656;
+}
+tr td:first-child{
+    color: #f8df40;
+}
+td:nth-child(n+1){
+    border: black solid 1.6px;
+    border-left: none;
+    border-bottom: none;
+}
+td:last-child{
+    border-right: none;
+}
+td{
+    user-select: none;
+    transition: .2s;
+    padding: 3px;
+}
+td:active{
+    color: #f8df40;
+}
+th:hover{
+    scale: 1.08;
+    background-color: #aa9d7b;
+    cursor: pointer;
+}
+td:focus{
+    background-color: #d5b763;
+}
+
+.links a:active{
+    color: rgb(78, 60, 196);
+}
+.links a:visited{
+    color: #757575;
+}
+.container{
+    max-width: fit-content;
+    margin: auto;
+}
+.lessonsp{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
